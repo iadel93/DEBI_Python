@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/CLS/DEBI_Python/MachineLearning/mlruns/936643182943094318/51e7aca9943644f1ae898de8127f9427/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '936643182943094318'
+lifecycle_stage: active
+run_id: 51e7aca9943644f1ae898de8127f9427
+run_name: K-Means Clustering
+run_uuid: 51e7aca9943644f1ae898de8127f9427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744484419180
+status: 1
+tags: []
+user_id: engsm
