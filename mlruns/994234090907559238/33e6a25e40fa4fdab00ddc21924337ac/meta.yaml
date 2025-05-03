@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/994234090907559238/33e6a25e40fa4fdab00ddc21924337ac/artifacts
+end_time: 1746293945567
+entry_point_name: ''
+experiment_id: '994234090907559238'
+lifecycle_stage: active
+run_id: 33e6a25e40fa4fdab00ddc21924337ac
+run_name: kindly-calf-922
+run_uuid: 33e6a25e40fa4fdab00ddc21924337ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746293934948
+status: 3
+tags: []
+user_id: engsm

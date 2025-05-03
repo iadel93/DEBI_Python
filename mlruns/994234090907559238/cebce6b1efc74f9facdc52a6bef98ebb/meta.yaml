@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/994234090907559238/cebce6b1efc74f9facdc52a6bef98ebb/artifacts
+end_time: 1746292758439
+entry_point_name: ''
+experiment_id: '994234090907559238'
+lifecycle_stage: active
+run_id: cebce6b1efc74f9facdc52a6bef98ebb
+run_name: defiant-rat-691
+run_uuid: cebce6b1efc74f9facdc52a6bef98ebb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746292744408
+status: 3
+tags: []
+user_id: engsm
