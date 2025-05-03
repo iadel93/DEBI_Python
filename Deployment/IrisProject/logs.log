@@ -41,3 +41,17 @@
 2025-05-02 11:39:06,548:train.py:INFO:Test set accuracy: 1.0
 2025-05-02 11:39:06,549:model_utils.py:INFO:saving model
 2025-05-02 11:39:06,550:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-03 18:32:38,996:run.py:INFO:Beginning process train
+2025-05-03 18:32:44,195:train.py:INFO:Training model
+2025-05-03 18:32:44,384:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-03 18:32:44,385:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-03 18:32:44,385:train.py:INFO:best score: 0.0
+2025-05-03 18:32:44,388:train.py:INFO:Test set accuracy: 0.9333333333333333
+2025-05-03 18:32:44,388:model_utils.py:INFO:saving model
+2025-05-03 18:32:44,499:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-03 18:33:32,846:run.py:INFO:Beginning process predict
+2025-05-03 18:33:34,503:model_utils.py:INFO:loading model
+2025-05-03 18:33:34,653:predict.py:INFO:Predicted class: setosa
+2025-05-03 18:34:08,444:run.py:INFO:Beginning process visualization
+2025-05-03 18:34:40,808:run.py:INFO:Beginning process visualization
