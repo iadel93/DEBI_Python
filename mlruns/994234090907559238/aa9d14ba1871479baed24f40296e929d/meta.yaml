@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/994234090907559238/aa9d14ba1871479baed24f40296e929d/artifacts
+end_time: 1746792240917
+entry_point_name: ''
+experiment_id: '994234090907559238'
+lifecycle_stage: active
+run_id: aa9d14ba1871479baed24f40296e929d
+run_name: amazing-bear-71
+run_uuid: aa9d14ba1871479baed24f40296e929d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746792223438
+status: 3
+tags: []
+user_id: engsm
