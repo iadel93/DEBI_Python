@@ -1,0 +1,107 @@
+2025-05-02 11:22:46,426:run.py:INFO:Beginning process train
+2025-05-02 11:22:49,315:train.py:INFO:Training model
+2025-05-02 11:22:49,450:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-02 11:22:49,450:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-02 11:22:49,450:train.py:INFO:best score: 0.0
+2025-05-02 11:22:49,451:train.py:INFO:Test set accuracy: 0.8666666666666667
+2025-05-02 11:24:54,699:run.py:INFO:Beginning process train
+2025-05-02 11:24:57,021:train.py:INFO:Training model
+2025-05-02 11:24:57,160:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-02 11:24:57,161:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-02 11:24:57,161:train.py:INFO:best score: 0.0
+2025-05-02 11:24:57,162:train.py:INFO:Test set accuracy: 0.9333333333333333
+2025-05-02 11:24:57,162:model_utils.py:INFO:saving model
+2025-05-02 11:24:57,163:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-02 11:25:38,809:run.py:INFO:Beginning process train
+2025-05-02 11:25:41,226:train.py:INFO:Training model
+2025-05-02 11:25:41,362:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-02 11:25:41,362:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-02 11:25:41,362:train.py:INFO:best score: 0.0
+2025-05-02 11:25:41,363:train.py:INFO:Test set accuracy: 1.0
+2025-05-02 11:25:41,364:model_utils.py:INFO:saving model
+2025-05-02 11:25:41,364:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-02 11:30:19,535:run.py:INFO:Beginning process train
+2025-05-02 11:30:22,075:train.py:INFO:Training model
+2025-05-02 11:30:22,203:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-02 11:30:22,205:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-02 11:30:22,205:train.py:INFO:best score: 0.0
+2025-05-02 11:30:22,206:train.py:INFO:Test set accuracy: 0.9333333333333333
+2025-05-02 11:30:22,206:model_utils.py:INFO:saving model
+2025-05-02 11:30:22,206:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-02 11:39:04,580:run.py:INFO:Beginning process train
+2025-05-02 11:39:06,437:train.py:INFO:Training model
+2025-05-02 11:39:06,546:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-02 11:39:06,546:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-02 11:39:06,547:train.py:INFO:best score: 0.0
+2025-05-02 11:39:06,548:train.py:INFO:Test set accuracy: 1.0
+2025-05-02 11:39:06,549:model_utils.py:INFO:saving model
+2025-05-02 11:39:06,550:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-03 18:32:38,996:run.py:INFO:Beginning process train
+2025-05-03 18:32:44,195:train.py:INFO:Training model
+2025-05-03 18:32:44,384:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-03 18:32:44,385:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-03 18:32:44,385:train.py:INFO:best score: 0.0
+2025-05-03 18:32:44,388:train.py:INFO:Test set accuracy: 0.9333333333333333
+2025-05-03 18:32:44,388:model_utils.py:INFO:saving model
+2025-05-03 18:32:44,499:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-03 18:33:32,846:run.py:INFO:Beginning process predict
+2025-05-03 18:33:34,503:model_utils.py:INFO:loading model
+2025-05-03 18:33:34,653:predict.py:INFO:Predicted class: setosa
+2025-05-03 18:34:08,444:run.py:INFO:Beginning process visualization
+2025-05-03 18:34:40,808:run.py:INFO:Beginning process visualization
+2025-05-03 18:49:49,695:_internal.py:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-03 18:49:49,697:_internal.py:INFO:[33mPress CTRL+C to quit[0m
+2025-05-03 18:50:05,125:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-03 18:50:05,241:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 18:50:07,748:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-03 18:50:20,146:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:20] "[32mGET /train HTTP/1.1[0m" 308 -
+2025-05-03 18:50:21,303:train.py:INFO:Training model
+2025-05-03 18:50:21,498:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-03 18:50:21,499:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-03 18:50:21,500:train.py:INFO:best score: 0.0
+2025-05-03 18:50:21,503:train.py:INFO:Test set accuracy: 0.9333333333333333
+2025-05-03 18:50:21,503:model_utils.py:INFO:saving model
+2025-05-03 18:50:21,507:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-03 18:50:21,508:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:21] "GET /train/ HTTP/1.1" 200 -
+2025-05-03 18:50:51,229:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "[32mGET /visualise HTTP/1.1[0m" 308 -
+2025-05-03 18:50:51,260:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "[35m[1mGET /visualise/ HTTP/1.1[0m" 500 -
+2025-05-03 18:50:51,393:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "GET /visualise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-03 18:50:51,394:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "GET /visualise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-03 18:50:51,456:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "GET /visualise/?__debugger__=yes&cmd=resource&f=console.png&s=E3d7yriJkuvIdyrgWBaR HTTP/1.1" 200 -
+2025-05-03 18:50:51,477:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:50:51] "GET /visualise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-03 18:51:22,342:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:51:22] "[35m[1mGET /visualise/ HTTP/1.1[0m" 500 -
+2025-05-03 18:51:22,384:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:51:22] "[36mGET /visualise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-03 18:51:22,387:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:51:22] "[36mGET /visualise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-03 18:51:22,408:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:51:22] "[36mGET /visualise/?__debugger__=yes&cmd=resource&f=console.png&s=E3d7yriJkuvIdyrgWBaR HTTP/1.1[0m" 304 -
+2025-05-03 18:52:02,847:_internal.py:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-03 18:52:02,847:_internal.py:INFO:[33mPress CTRL+C to quit[0m
+2025-05-03 18:52:17,375:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:52:17] "GET /visualise/ HTTP/1.1" 200 -
+2025-05-03 18:52:17,598:_internal.py:INFO:127.0.0.1 - - [03/May/2025 18:52:17] "GET /static/images/data_vis.png HTTP/1.1" 200 -
+2025-05-09 11:30:22,507:run.py:INFO:Beginning process predict
+2025-05-09 11:30:27,220:model_utils.py:INFO:loading model
+2025-05-09 11:32:36,534:run.py:INFO:Beginning process train
+2025-05-09 11:33:05,312:run.py:INFO:Beginning process train
+2025-05-09 11:33:08,049:train.py:INFO:Training model
+2025-05-09 11:33:08,435:train.py:INFO:best model: Pipeline(steps=[('scaler', StandardScaler()),
+                ('clf', ClfSwitcher(estimator=LogisticRegression()))])
+2025-05-09 11:33:08,438:train.py:INFO:best params: {'clf__estimator': LogisticRegression(), 'clf__estimator__C': 0.5}
+2025-05-09 11:33:08,439:train.py:INFO:best score: 0.0
+2025-05-09 11:33:08,442:train.py:INFO:Test set accuracy: 1.0
+2025-05-09 11:33:08,442:model_utils.py:INFO:saving model
+2025-05-09 11:33:08,443:model_utils.py:INFO:model saved to models/latest_model.pkl
+2025-05-09 11:33:14,833:run.py:INFO:Beginning process predict
+2025-05-09 11:33:16,540:model_utils.py:INFO:loading model
+2025-05-09 11:33:16,707:predict.py:INFO:Predicted class: setosa

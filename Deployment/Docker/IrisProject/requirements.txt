@@ -1,0 +1,9 @@
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+seaborn
+Flask
+Flask-Cors
+Flask-RESTful
