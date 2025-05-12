@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "a demo for an ai application"
 authors = ["iadel93 <engsmsm@gmail.com>"]
 readme = "README.md"
+include = [{path = "./iris/"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.12"

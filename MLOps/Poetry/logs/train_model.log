@@ -1,0 +1,6 @@
+2025-05-12 19:21:01,007 - iris.main.train_model - INFO - Loaded dataset with 150 samples and 4 features.
+2025-05-12 19:21:01,007 - iris.main.train_model - INFO - Feature names: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+2025-05-12 19:21:01,008 - iris.main.train_model - INFO - Training the model...
+2025-05-12 19:21:01,123 - iris.main.train_model - INFO - Model training completed.
+2025-05-12 19:21:01,128 - iris.main.train_model - INFO - Model accuracy: 1.00
+2025-05-12 19:21:01,131 - iris.main.train_model - INFO - Model saved to models/model.pkl
