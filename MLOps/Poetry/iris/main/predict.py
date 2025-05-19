@@ -1,5 +1,11 @@
 import pickle
 from iris.config import model_configs
+from iris.utils.setup_logger import setup_logger
+import logging
+
+# Set up logging
+logger = logging.getLogger(__name__)
+logger = setup_logger(logger)
 
 def predict(input_data = model_configs.sample_input):
     """
@@ -14,9 +20,13 @@ def predict(input_data = model_configs.sample_input):
     # Load the model
     with open(model_configs.model_path, "rb") as f:
         model = pickle.load(f)
+    logger.info(f"Model loaded from {model_configs.model_path}")
 
     # Make a prediction
     predictions = model.predict(input_data)
+    logger.info(f"Input data: {input_data}")
+    logger.info(f"Predicted class: {predictions[0]}")
+
     return predictions[0]
 
 if __name__ == "__main__":
